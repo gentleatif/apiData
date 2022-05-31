@@ -1,5 +1,5 @@
 const dataRow = document.getElementById("table");
-
+// final Data
 const finalData = fetch("https://jsonplaceholder.typicode.com/photos")
   .then((data) => {
     return data.json();
