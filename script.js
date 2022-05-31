@@ -1,8 +1,6 @@
 const dataRow = document.getElementById("table");
-const url = "https://jsonplaceholder.typicode.com/photos";
-// make get request
 
-const finalData = fetch("http://jsonplaceholder.typicode.com/photos")
+const finalData = fetch("https://jsonplaceholder.typicode.com/photos")
   .then((data) => {
     return data.json();
   })
