@@ -30,7 +30,6 @@ finalData.then((data) => {
     td3.innerHTML = `${singleData.title}`;
     td4.innerHTML = `${singleData.url}`;
     td5.innerHTML = `${singleData.thumbnailUrl}`;
-    console.log(td1);
     // append all td into dataRow
     row.appendChild(td1);
     row.appendChild(td2);
