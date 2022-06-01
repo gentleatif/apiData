@@ -1,6 +1,11 @@
 const dataRow = document.getElementById("table");
 // final Data
-const finalData = fetch("https://jsonplaceholder.typicode.com/photos")
+const finalData = fetch("https://jsonplaceholder.typicode.com/photos", {
+  mode: "cors",
+  headers: {
+    "Access-Control-Allow-Origin": "*",
+  },
+})
   .then((data) => {
     return data.json();
   })
